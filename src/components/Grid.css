@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", "Helvetica", Arial, sans-serif;
+}
+
+textarea, select, input, button { outline: none; }
+
+select {
+  font:700 15px "Nunito";
+  color:#333;
+  text-decoration:none;
+  border:3px solid #000;
+  letter-spacing:1px;
+  padding:10px 15px 10px 25px;
+  width:150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+
+.search-bar {
+  margin-top: 150px;
+  padding: 0 50px;
+}
+
+.container {
+  border: 1px solid #e8e8e8;
+  display: grid;
+  padding: 2em;
+  height: 100vh;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-auto-rows: 5em;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.grid-item {
+  background: white;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.15);
+}
+
+.grid-item-make {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-weight: 800;
+}
+
+.grid-item-model {
+  position: relative;
+  display: inline;
+  top: 10px;
+  left: 15px;
+}
+
+.grid-item-year {
+  position: relative;
+  display: inline;
+  top: 30px;
+  left: -80px;
+}
+
+.grid-item-type {
+  position: relative;
+  display: inline;
+  top: 30px;
+  left: -70px;
+}
+
+.grid-item-link a {
+  position: relative;
+  display: block;
+  top: 30px;
+  left: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .search-bar {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .grid-item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  select {
+    width: 100%;
+  }
+}

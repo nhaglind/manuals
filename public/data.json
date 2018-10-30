@@ -1,0 +1,25 @@
+[{
+  "id": 0,
+  "make": "Honda",
+  "model": "Civic",
+  "year": "2018",
+  "type": "EX-T"
+}, {
+  "id": 1,
+  "make": "Tesla",
+  "model": "Model S",
+  "year": "2018",
+  "type": "S100"
+}, {
+  "id": 2,
+  "make": "Toyota",
+  "model": "Camry",
+  "year": "2015",
+  "type": "EX"
+}, {
+  "id": 3,
+  "make": "BMW",
+  "model": "3 Series",
+  "year": "2011",
+  "type": "325"
+}]
